@@ -1,0 +1,32 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>{% block title %}{% endblock %}</title>
+
+	<meta name="description" content="Voorbeeld pagina">
+
+	<meta name="author" content="Voorbeeld">
+
+	<meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
+
+	<link rel="stylesheet" href="{{ url_for("static",filename="css/styles.css") }}">
+
+</head>
+<header>
+    <nav>
+        <ul>
+            <li><div class="Device">Device name: <b>'{{ DeviceID }}'</b></div></li>
+            <div class="middle">
+                <li><a {% block verbruik %}{% endblock %} href="{{ url_for("verbruik") }}" class="logo"></a></li>
+            </div>
+        </ul>
+    </nav>
+</header>
+	{% block body %}
+	{% endblock %}
+</html>

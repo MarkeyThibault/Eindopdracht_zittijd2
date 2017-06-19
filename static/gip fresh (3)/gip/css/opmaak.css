@@ -1,0 +1,615 @@
+h1 {color: #99e6ff;} /* Titels krijgen een kleur */
+
+body {
+	background-color: #004466; 	/* De body wordt opgemaakt. Er Wordt een achtergrond afbeelding geplaats, */
+	font-family: calibri;											/* het lettertype is calibri en de de tekstkleur wordt blauw. */
+	color: #99e6ff;
+	min-width: 1920px;						/* Door min-width in te stellen op 1920px (schermbreedte) zal de opmaak van mijn css hetzelfde blijven wanneer de pagina geminimaliseerd wordt */
+}
+
+/* Navigatie */
+
+#header {
+	background-color: #00BFFF;
+}
+
+.onderlijn {
+	width: 100%;					/* Er komt een blauwe lijn onder het logo van ICT-Worx, die de hele breedte van de pagina beslaat. */
+	height: 6px;
+	background-color: #99e6ff;
+	float: left;
+}
+
+#navigatieknop {						/* De iconen van de home pagina krijgen hun eigen opmaak */
+	width: 100px;
+	height: 100px;
+	float: left;
+	background-image: url("../Images/Terwaarde logo.png");
+	transition: all 0.5s ease;
+	background-repeat: none;
+	position: absolute;
+	top: -45px;
+	left: 400px;
+}
+
+#navigatieknop:hover {
+	background-image: url("../Images/Terwaarde logo2.png");
+	background-repeat: none;
+	width: 100px;
+	height: 100px;
+}
+
+#navigatieknop2 {						/* De iconen van de home pagina krijgen hun eigen opmaak */
+	width: 100px;
+	height: 100px;
+	float: left;
+	background-image: url("../Images/Productenlogo.png");
+	transition: all 0.5s ease;
+	background-repeat: none;
+	position: absolute;
+	top: -45px;
+	left: 600px;
+}
+
+#navigatieknop2:hover {
+	background-image: url("../Images/Productenlogo2.png");
+	background-repeat: none;
+	width: 100px;
+	height: 100px;
+}
+
+#navigatieknop3 {						/* De iconen van de home pagina krijgen hun eigen opmaak */
+	width: 100px;
+	height: 100px;
+	float: left;
+	background-image: url("../Images/Supportlogo.png");
+	transition: all 0.5s ease;
+	background-repeat: none;
+	position: absolute;
+	top: -45px;
+	left: 800px;
+}
+
+#navigatieknop3:hover {
+	background-image: url("../Images/Supportlogo2.png");
+	background-repeat: none;
+	width: 100px;
+	height: 100px;
+}
+
+#navigatieknop4 {						/* De iconen van de home pagina krijgen hun eigen opmaak */
+	width: 100px;
+	height: 100px;
+	float: left;
+	background-image: url("../Images/Contactlogo.png");
+	transition: all 0.5s ease;
+	background-repeat: none;
+	position: absolute;
+	top: -45px;
+	left: 1000px;
+}
+
+#navigatieknop4:hover {
+	background-image: url("../Images/Contactlogo2.png");
+	background-repeat: none;
+	width: 100px;
+	height: 100px;
+}
+
+#navigatieknop5 {						/* De iconen van de home pagina krijgen hun eigen opmaak */
+	width: 100px;
+	height: 100px;
+	float: left;
+	background-image: url("../Images/Bedrijflogo.png");
+	transition: all 0.5s ease;
+	background-repeat: none;
+	position: absolute;
+	top: -45px;
+	left: 1200px;
+}
+
+#navigatieknop5:hover {
+	background-image: url("../Images/Bedrijflogo2.png");
+	background-repeat: none;
+	width: 100px;
+	height: 100px;
+}
+
+#navigatieknop6 {						/* De iconen van de home pagina krijgen hun eigen opmaak */
+	width: 100px;
+	height: 100px;
+	float: left;
+	background-image: url("../Images/Partnerslogo.png");
+	transition: all 0.5s ease;
+	background-repeat: none;
+	position: absolute;
+	top: -45px;
+	left: 1400px;
+}
+
+#navigatieknop6:hover {
+	background-image: url("../Images/Partnerslogo2.png");
+	background-repeat: none;
+	width: 100px;
+	height: 100px;
+}
+
+#navigatieknopadmin {						/* De iconen van de home pagina krijgen hun eigen opmaak */
+	width: 100px;
+	height: 100px;
+	float: left;
+	background-image: url("../Images/Terwaarde logo.png");
+	transition: all 0.5s ease;
+	background-repeat: none;
+	position: absolute;
+	top: -45px;
+	left: 700px;
+}
+
+#navigatieknopadmin:hover {
+	background-image: url("../Images/Terwaarde logo2.png");
+	background-repeat: none;
+	width: 100px;
+	height: 100px;
+}
+
+#navigatieknopadmin2 {						/* De iconen van de home pagina krijgen hun eigen opmaak */
+	width: 100px;
+	height: 100px;
+	float: left;
+	background-image: url("../Images/Editorlogo.png");
+	transition: all 0.5s ease;
+	background-repeat: none;
+	position: absolute;
+	top: -45px;
+	left: 900px;
+}
+
+#navigatieknopadmin2:hover {
+	background-image: url("../Images/Editorlogo2.png");
+	background-repeat: none;
+	width: 100px;
+	height: 100px;
+}
+
+#navigatieknopadmin3 {						/* De iconen van de home pagina krijgen hun eigen opmaak */
+	width: 100px;
+	height: 100px;
+	float: left;
+	background-image: url("../Images/Productenlogo.png");
+	transition: all 0.5s ease;
+	background-repeat: none;
+	position: absolute;
+	top: -45px;
+	left: 1100px;
+}
+
+#navigatieknopadmin3:hover {
+	background-image: url("../Images/Productenlogo2.png");
+	background-repeat: none;
+	width: 100px;
+	height: 100px;
+}
+
+#bedrijfslogo {						/* Het bedrijfslogo wordt opgemaakt */
+	width: 500px;
+	margin-bottom: 100px;
+	margin-left: 40px;
+	margin-top: 40px;
+}
+
+nav {
+	width: 200px; 			/* Het keuzemenu wordt opgemaakt. Deze staat aan de linkerkant van de pagina, en heeft geen effect op de content ernaast. */
+	height: 0px;				/* de hoogte is 55px en er wordt een witruimte van 10px eronder gelaten. */
+	position: absolute;
+}
+
+a {									/* De namen in het keuzemenu krijgen geen speciale opmaak, en een blauwe kleur. */
+	text-decoration: none;
+	color: #00BFFF;
+}
+
+li {
+	width: 200px;				/* De selectiebalken zijn 200px breed */
+}
+
+.home {
+	margin-top: 30px;		/* De homeknop wordt tegen de andere knoppen geplaatst */
+}
+
+
+
+/* Contact */
+
+#map {
+  margin-bottom: 20px;							/* Er wordt een witruimte van 20px gelaten onder de kaart */
+  position: relative;							/* De positionering van de kaart is relatief op basis van de div */
+  overflow: hidden;								/* De overtollige delen van de kaart worden verborgen */
+  background-repeat: no-repeat;					/* De background (map.gif) komt maar 1 keer voor */
+  background-position: 50% 50%;					/* map.gif wordt in het midden van de kaart geplaatst */
+  background-image: url(../Images/map.gif);		/* De achtergrond foto is map.gif, hierdoor wordt er een loading gif afgespeeld terwijl de kaart zich inlaadt */
+}
+     
+.contact {
+	float: left;								/* De div waarin de google map en de sociale media komen wordt gepositioneerd in contact */
+	margin-top: 130px;
+	margin-right: 60px;
+	margin-left: 400px;
+	height: 600px;
+}
+	
+.formulier{										/* De div met het concact formulier wordt gepositioneerd in contact */
+		margin-top: 130px;
+		float: left;
+		width: 300px;
+		height: 600px;
+}
+
+input[type=submit] {										/* De verzend knop van het formulier krijgt zijn eigen opmaak */
+	background-color: #99e6ff;
+	padding: 3px;
+	border: 1px solid;
+	border-radius: 10px;
+	color: black;
+	font-weight: bold;
+	width: 80px;
+}
+
+input[type=submit]:hover {									/* De verzend knop verandert van kleur wanneer de cursor erover beweegt */
+		background-color: white;
+		transition: all 0.5s ease;
+}
+
+input[type=text], input[type=email], input[type=password], textarea { /* De opmaak van het contact formulier */
+    width: 280px;								/* De breedte is 280px */
+	background-color: #023948;					/* De achtergrond kleur wordt gedeclareerd */
+	padding: 5px 10px 5px 10px;					/* De tekst krijgt een witruimte ten opzichte van de rand van het tekstkader */
+	border: 1px solid #0d2237;					/* De rand wordt gedeclareerd en krijgt een kleur */
+	color: white;								/* De tekstkleur is wit */
+	resize: none;								/* De textarea kan niet van grootte veranderen */
+}
+
+/* Home */
+
+#gevel {
+	width: 750px;					/* De positionering en grootte van de foto van het gebouw van ICT-Worx wordt gedeclareerd */
+	height: 650px;
+	margin-left: 350px;
+	float:left;
+	margin-top: 80px;
+}
+
+.icoon {						/* De iconen van de home pagina krijgen hun eigen opmaak */
+	width: 80px;
+	height: 80px;
+	float: left;
+	margin-right: 45px;
+}
+
+#twitter {						/* De iconen van de home pagina krijgen hun eigen opmaak */
+	width: 80px;
+	height: 80px;
+	float: left;
+	margin-right: 45px;
+	background-image: url("../Images/Twitter.png");
+	transition: all 0.5s ease;
+	background-repeat: none;
+}
+
+#twitter:hover {
+	background-image: url("../Images/Twitter2.png");
+	background-repeat: none;
+}
+
+
+#facebook {						/* De iconen van de home pagina krijgen hun eigen opmaak */
+	width: 80px;
+	height: 80px;
+	float: left;
+	margin-right: 45px;
+	background-image: url("../Images/Facebooklogo.png");
+	transition: all 0.5s ease;
+	background-repeat: none;
+}
+
+#facebook:hover {
+	background-image: url("../Images/Facebooklogo2.png");
+	background-repeat: none;
+}
+
+
+#linked {						/* De iconen van de home pagina krijgen hun eigen opmaak */
+	width: 80px;
+	height: 80px;
+	float: left;
+	margin-right: 45px;
+	background-image: url("../Images/linkedlogo.png");
+	transition: all 0.5s ease;
+	background-repeat: none;
+}
+
+#linked:hover {
+	background-image: url("../Images/linkedlogo2.png");
+	background-repeat: none;
+}
+
+.adres {					/* De div met de informatie van de startpagina krijgt een opmaak */
+	float: left;
+	clear: both;
+	margin-left: 400px;
+	line-height: 40%;		/* De lijnen tekst hebben 40% van hun normale onderlinge afstand */
+	font-size: 150%;		/* De letters zijn een halve keer zo groot als normaal */
+	width: 300px;
+}
+
+.adres2 {					/* De div met de informatie van de startpagina krijgt een opmaak */
+	float: left;
+	line-height: 40%;		/* De lijnen tekst hebben 40% van hun normale onderlinge afstand */
+	font-size: 150%;		/* De letters zijn een halve keer zo groot als normaal */
+	width: 600px;
+}
+
+.uren {					/* De div met de informatie van de startpagina krijgt een opmaak */
+	margin-top: 280px;		/* Er wordt een afstand van 150px naar boven toe in acht genomen */ 
+	line-height: 40%;		/* De lijnen tekst hebben 40% van hun normale onderlinge afstand */
+	font-size: 150%;		/* De letters zijn een halve keer zo groot als normaal */
+}
+
+.adres2 span{
+	width: 150px;			/* Er wordt een witruimte van 150px tussen de tekst en de icoontjes gelaten */
+	float: left;
+}
+
+.uren span{
+	width: 220px;			/* Er wordt een witruimte van 150px tussen de tekst en de icoontjes gelaten */
+	float: left;
+}
+
+.mail {								/* Er wordt voor gezorgd dat de <a> van het mailadres geen menukader wordt */
+	font-size: 100%;				/* De font size wordt weer normaal */
+	border: none;					/* Er is geen rand */
+	letter-spacing: 0em;			/* De letters hebben een normale onderlinge afstand */
+	font-weight: normal;			/* De letters zijn niet meer vetgedrukt */
+	text-transform: lowercase;		/* De tekst bestaat alleen uit kleine letters */
+	text-align: left;				/* De tekst wordt weergegeven in zijn normale positie */
+	line-height: 10px;				/* De tekst heeft een normale lijnhoogte */
+	text-decoration: underline;		/* De tekst wordt onderlijnd */
+	color: #99e6ff;
+}
+
+.mail:hover {						/* Wanneer je met je cursor over het e-mail adres beweegt krijgt deze een animatie en een andere opmaak. */
+	color: white;
+	background: none;
+	transition: all 0.5s ease;
+}
+
+.openingsuren {
+	margin-top: 65px;				/* De openingsuren hebben een witruimte van 65px boven hen */
+	font-size: 125%;
+}
+
+/* Producten */
+
+#producten {						/* De product pagina wordt naar rechts verplaatst en heeft een groter lettertype */
+	margin-left: 350px;
+	margin-top: 150px;
+	font-size: 150%;
+}
+
+#beschrijving {						/* De opmaak van de beschrijving van het product */	
+	margin-top: 25px;
+	width: 428px;
+	padding: 10px;
+	border: 1px solid #99e6ff;
+	margin-bottom: 100px;
+}
+
+#productfoto {						/* De opmaak van de foto van het product */
+	width: 450px;
+	height: 300px;
+	margin-bottom: 15px;
+}
+
+#productnaam {
+	width: 415px;
+	border: 3px solid #99e6ff;
+	padding: 15px;
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+table {								/* De opmaak van de tabel waarin de productgegevens zitten */
+	width: 450px;
+	border: 1px solid #99e6ff;
+	border-spacing: 0px;
+}
+
+td {										/* De tabelrijen krijgen een onderlijn */
+	border-bottom: 1px solid #99e6ff;
+	padding: 5px;
+}
+
+.specs {							/* Dit zorgt ervoor Dat de onderste lijn van de product tabel niet te dik is */
+	border: none;
+}	
+
+.fout {								/* Bij een leeg product wordt 'Not available' in het rood weergegeven */
+	color: #ff0000;
+}
+
+/* Footer */
+
+#footer {								/* De opmaak van de footer */
+	width: 90%;
+	height: 30px;
+	position: relative;
+	background-color: #99e6ff;
+	font-weight: bold;
+	float: left;
+	margin-bottom: 50px;
+	margin-left: 1.45%;
+	margin-top: 2%;
+	border-radius: 100px;
+	color: black;
+	padding-top: 5px;
+	padding-left: 50px;
+}
+
+#source {								/* De opmaak van de info in de footer */
+	float:left;
+	margin-top: 3px;
+}
+
+#login {								/* De opmaak van het login gedeelte */
+	float: right;
+	margin-bottom: 50px;
+	padding-right: 50px;
+	position: relative;
+}
+
+.login {
+	margin-left: 15px;
+}
+
+.logout {
+	margin-top: 2px;					/* De opmaak van het log out gedeelte */
+}
+
+#scheider {								/* De opmaak van de scheider foto */
+	width: 8px;
+	height: 25px;
+	margin-left: 30px;
+	margin-right: 30px;
+	float: left;
+}
+
+.footermail {							/* Het mailadres in de footer krijgt een zwarte tekstkleur */
+	color: black;
+}
+
+.footermail:hover {						/* Wanneer je met je muis beweegt over een e-mail adres heeft hij geen achtergrond meer, en wordt de kleur wit over een tijdspanne van een halve seconde. */
+	background: none;
+	color: white;
+	transition: all 0.5s ease;
+}
+
+/* Bedrijf */
+
+#bedrijf {								/* De div van de bedrijf pagina wordt opgemaakt */
+	margin-left: 700px;
+	margin-top: 130px;
+	font-size: 125%;
+	text-align: center;
+	width: 500px;
+}
+
+/* Partners */
+
+#partners {								/* De div van de partner pagina wordt opgemaakt */
+	margin-left: 300px;
+	width: 600px;
+	margin-top: 130px;
+}
+
+#partner {								/* De opmaak van de partners hun kaders */
+	width: 100%;
+	background-color: white;
+	float: left;
+	padding: 10px;
+	padding-left: 50px;
+	margin-bottom: 30px;
+}
+
+/* Editor */
+
+#producteditor {					/* De producten worden op een goede positie ten opzichte van de navigatie geplaatst */
+	margin-left: 300px;
+	margin-top: 200px;
+	font-size: 140%;
+}
+
+#nieuw, #update {				/* Het formulier voor een nieuw product en het formulier om een product up te daten staan mooi naast elkaar */
+	float: left;
+}
+
+#update {						/* Er wordt een witruimte van 50px gelaten tussen het aanmaak en het update formulier */
+	margin-left: 50px;
+	width: 350px;
+}
+
+#select {						/* Het dropdown menu om een product te selecteren krijgt een absolute positionering */
+	position: absolute;
+	top: 400px;
+	left: 310px;
+}
+
+#deleter, #fotoloader {			/* Deze worden mooi naast elkaar geplaatst, hebben links een witruimte van 50px en een maximumbreedte van 550px */
+	float: left;
+	margin-left: 50px;
+	width: 550px;
+}
+
+.navigatie {
+	color: #99e6ff;
+}
+
+.navigatie:hover {
+	color: white;
+}
+
+.navigatietekst {
+	margin-left: 20px;
+	margin-top: 120px;
+	font-size: 150%;
+	font-weight: bold;
+}
+
+.navigatietekst2 {
+	margin-top: 120px;
+	font-size: 150%;
+	font-weight: bold;
+}
+
+.navigatietekst3 {
+	margin-left: 11px;
+	margin-top: 120px;
+	font-size: 150%;
+	font-weight: bold;
+}
+
+.navigatietekst4 {
+	margin-left: 12px;
+	margin-top: 120px;
+	font-size: 150%;
+	font-weight: bold;
+}
+
+.navigatietekst5 {
+	margin-left: 16px;
+	margin-top: 120px;
+	font-size: 150%;
+	font-weight: bold;
+}
+
+.navigatietekst6 {
+	margin-left: 8px;
+	margin-top: 120px;
+	font-size: 150%;
+	font-weight: bold;
+}
+
+.navigatietekst7 {
+	margin-left: 22px;
+	margin-top: 120px;
+	font-size: 150%;
+	font-weight: bold;
+}
+
+.tekst {
+	font-size: 125%;
+}
+
+.naam {
+	font-size: 125%;
+}
+
