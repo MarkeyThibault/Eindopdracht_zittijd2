@@ -59,7 +59,7 @@ GPIO.setup(Relais, GPIO.OUT)
 # GPIO.output(R, 0)
 # GPIO.output(G, 0)
 # GPIO.output(B, 0)
-
+time.sleep(10)
 while True:
     temp_level_binnen = ReadChannel(binnensensor)
     temp_volts_binnen = ConvertVolts(temp_level_binnen, 2)
